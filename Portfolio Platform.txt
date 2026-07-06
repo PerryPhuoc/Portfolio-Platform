@@ -1,0 +1,201 @@
+Portfolio Platform
+│
+├── docs/				# Tài liệu sản phẩm
+│		├── 00. Constitution/
+│		│		├── 00. Engineering Constitution.md
+│		│		├── 01. Glossary.md
+│		│		├── 02. Naming Convention.md
+│		│		├── 03. Coding Convention.md
+│		│		├── 04. Documentation Convention.md
+│		│		├── 05. Folder Convention.md
+│		│		├── 06. Business Rules.md
+│		│		└── 07. Global Constraints.md
+│		│
+│		├── 01. Product/
+│		│		├── 01 Product Vision.md
+│		│		├── 02 Target User.md
+│		│		├── 03 Value Proposition.md
+│		│		├── 04 Competitive Analysis.md
+│		│		├── 05 Success Metrics.md
+│		│		├── 06 Scope.md
+│		│		└── 07 Non Functional Requirement.md
+│		│
+│		├── 02. Business/
+│		│		├── 01 User Journey.md
+│		│		├── 02 User Story.md
+│		│		├── 03 Use Case.md
+│		│		├── 04 Permission Matrix.md
+│		│		├── 05 Role Definition.md
+│		│		├── 06 Workflow.md
+│		│		└── 07 Status Flow.md
+│		│
+│		├── 03. PRD/
+│		│		├── Authentication.md
+│		│		├── Dashboard.md
+│		│		├── User.md
+│		│		├── Role.md
+│		│		├── Permission.md
+│		│		├── Profile.md
+│		│		├── Portfolio.md
+│		│		├── Project.md
+│		│		├── Evidence.md
+│		│		├── CV.md
+│		│		├── Resume Template.md
+│		│		├── Notification.md
+│		│		└── Admin.md
+│		│
+│		├── 04. Database/
+│		│		├── ERD.md
+│		│		├── Database Design.md
+│		│		├── Table Dictionary.md
+│		│		├── Stored Procedure.md
+│		│		├── View.md
+│		│		├── Function.md
+│		│		├── Trigger.md
+│		│		├── Seed Data.md
+│		│		└── Migration.md
+│		│
+│		├── 05. Backend/
+│		│		├── Architecture.md
+│		│		├── Folder Structure.md
+│		│		├── API Standard.md
+│		│		├── Authentication.md
+│		│		├── Authorization.md
+│		│		├── Exception.md
+│		│		├── Logging.md
+│		│		├── Caching.md
+│		│		├── Queue.md
+│		│		└── Scheduler.md
+│		│
+│		├── 06. Frontend/
+│		│		├── UI Flow.md
+│		│		├── Navigation.md
+│		│		├── Route.md
+│		│		├── Theme.md
+│		│		├── Layout.md
+│		│		├── Component.md
+│		│		├── Responsive.md
+│		│		├── Permission Guard.md
+│		│		└── Form Standard.md
+│		│
+│		├── 07. Architecture/
+│		│		├── System Architecture.md
+│		│		├── Deployment Diagram.md
+│		│		├── C4 Model.md
+│		│		├── Sequence Diagram.md
+│		│		├── Activity Diagram.md
+│		│		├── Class Diagram.md
+│		│		└── State Diagram.md
+│		│
+│		├── 08. DevOps/
+│		│		├── Environment.md
+│		│		├── Docker.md
+│		│		├── CI-CD.md
+│		│		├── Hosting.md
+│		│		├── Monitoring.md
+│		│		├── Backup.md
+│		│		├── Disaster Recovery.md
+│		│		└── Security.md
+│		│
+│		├── 09. Testing/
+│		│		├── Test Strategy.md
+│		│		├── Test Case.md
+│		│		├── Manual Test.md
+│		│		├── API Test.md
+│		│		├── Performance.md
+│		│		└── Security.md
+│		│
+│		├── 10. Release/
+│		│		├── Changelog.md
+│		│		├── Release Note.md
+│		│		└── Version.md
+│		│
+│		└── 11. Future/
+│				├── Roadmap.md
+│				├── Feature Backlog.md
+│				└── Ideas.md
+│
+├── specs/				# Single Source of Truth
+│		├── roles.json
+│		├── permissions.json
+│		├── status.json
+│		├── error-codes.json
+│		├── menus.json
+│		├── navigation.json
+│		├── api.json
+│		├── validation.json
+│		└── theme.json
+│
+├── templates/			# Template chuẩn
+│		├── PRD Template.md
+│		├── API Template.md
+│		├── ERD Template.md
+│		├── Use Case Template.md
+│		├── Test Case Template.md
+│		└── Release Template.md
+│
+├── assets/				# Hình ảnh dùng trong docs
+│		├── logo/
+│		│
+│		├── diagram/
+│		│
+│		├── wireframe/
+│		│
+│		├── erd/
+│		│
+│		├── flow/
+│		│
+│		├── icon/
+│		│
+│		└── image/
+│
+├── database/			# Nơi lưu toàn bộ source của database
+│		├── tables/
+│		│
+│		├── views/
+│		│
+│		├── functions/
+│		│
+│		├── procedures/
+│		│
+│		├── triggers/
+│		│
+│		├── migrations/
+│		│
+│		├── seed/
+│		│
+│		├── diagram/
+│		│
+│		├── backup/
+│		│
+│		└── README.md
+│
+├── backend/			# Source Backend
+│
+├── frontend/			# Source Frontend
+│
+├── deployment/
+│		├── docker/
+│		│
+│		├── nginx/
+│		│
+│		├── github/
+│		│
+│		├── environment/
+│		│
+│		├── scripts/
+│		│
+│		└── README.md
+│
+└── tools/				# Công cụ mà chính team tạo ra để hỗ trợ việc phát triển
+	├── api/
+	│
+	├── database/
+	│
+	├── generators/
+	│
+	├── converters/
+	│
+	├── validation/
+	│
+	└── README.md
