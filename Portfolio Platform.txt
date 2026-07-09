@@ -10,7 +10,8 @@ Portfolio Platform
 │		│		├── 05. Folder Convention.md
 │		│		├── 06. Business Rules.md
 │		│		├── 07. Global Constraints.md
-│		│		└── 08. AI Collaboration Standard.md
+│		│		├── 08. AI Collaboration Standard.md
+│		│		└── 09. Engineering State.md
 │		│
 │		├── 01. Product/
 │		│		├── 01 Product Vision.md
