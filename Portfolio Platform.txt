@@ -9,7 +9,8 @@ Portfolio Platform
 │		│		├── 04. Documentation Convention.md
 │		│		├── 05. Folder Convention.md
 │		│		├── 06. Business Rules.md
-│		│		└── 07. Global Constraints.md
+│		│		├── 07. Global Constraints.md
+│		│		└── 08. AI Collaboration Standard.md
 │		│
 │		├── 01. Product/
 │		│		├── 01 Product Vision.md
